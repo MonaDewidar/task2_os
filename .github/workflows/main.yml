@@ -15,7 +15,6 @@ jobs:
 
 
     steps:
-      - name: 'testing actions'
-        run: pwd
-      - name: 'testing printing'
-        run: echo Mona
+      - name: 'testing files'
+        run: ls
+      
